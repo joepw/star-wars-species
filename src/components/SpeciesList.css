@@ -1,0 +1,33 @@
+.species-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.species {
+  height: 200px;
+  border: 2px solid #ffe81f;
+  border-radius: 10px;
+  width: 40%;
+  max-width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+}
+
+.species__name {
+  color: #ffe81f;
+  width: 100%;
+}
+
+@media screen and (max-width: 280px) {
+  .species {
+    width: 90%;
+  }
+}

@@ -1,0 +1,47 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.detail__title {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.detail {
+  background-color: black;
+  border: 2px solid #ffe81f;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail__item {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.detail__subtitle {
+  margin-bottom: 10px;
+}
+
+.detail__content {
+  color: white;
+}
+
+@media screen and (max-width: 280px) {
+  .detail__item {
+    width: 100%;
+  }
+}

@@ -2,6 +2,10 @@
 
 Web app that shows list of species from the Star Wars franchise. Data source from [SWAPI](https://swapi.dev/).
 
+## Demo
+
+[Demo](https://boring-chandrasekhar-180469.netlify.app/)
+
 ## Usage
 
 In the project directory, you can run:
